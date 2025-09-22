@@ -1,0 +1,13 @@
+# Nmap 7.95 scan initiated Mon Sep 22 14:17:37 2025 as: /usr/lib/nmap/nmap -oN results.txt 192.168.2.179
+Nmap scan report for ***.***.*.***
+Host is up (0.018s latency).
+Not shown: 994 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+21/tcp  open  ftp
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+902/tcp open  iss-realsecure
+912/tcp open  apex-mesh
+
+# Nmap done at Mon Sep 22 14:17:48 2025 -- 1 IP address (1 host up) scanned in 11.52 seconds
